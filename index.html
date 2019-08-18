@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -42,12 +43,12 @@
         <br>
         <br>
         <h1>JSON</h1>
-        <div class="row align-items-center" style="height: 55vh;">
+        <div class="row">
             <div class="col-11">
                 <textarea class="form-control" id="jsonTxt"
                     rows="18">{"status": "OK", "output": {"pools": [{"stats": {"bytes_used": 0, "objects": 0, "kb_used": 0}, "name": "data", "id": 0}, {"stats": {"bytes_used": 0, "objects": 0, "kb_used": 0}, "name": "metadata", "id": 1}, {"stats": {"bytes_used": 0, "objects": 0, "kb_used": 0}, "name": "rbd", "id": 2}], "stats": {"total_used": 63330648, "total_space": 125604864, "total_avail": 62274216}}}</textarea>
             </div>
-            <div class="col-2">
+            <div class="col-2" style="margin-top: 20px">
                 <button type="button" class="btn btn-outline-dark" onclick="jsononclick()">format</button>
             </div>
         </div>
@@ -72,13 +73,13 @@
         <br>
         <br>
         <h1>SQL</h1>
-        <div class="row align-items-center" style="height: 60vh;">
+        <div class="row">
             <div class="col-11">
                 <textarea class="form-control" id="sqlTxt" rows="20">
 SELECT supplier_name, city FROM suppliers WHERE supplier_id > 500
 ORDER BY supplier_name ASC, city DESC;</textarea>
             </div>
-            <div class="col-2">
+            <div class="col-2" style="margin-top: 20px">
                 <button type="button" class="btn btn-outline-dark" onclick="sqlonclick()">format</button>
             </div>
         </div>
