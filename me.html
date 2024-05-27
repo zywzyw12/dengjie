@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プログラマー履歴書</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        .header,
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .section {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .section:last-child {
+            border: none;
+        }
+
+        .section .project {
+            color: sienna;
+        }
+
+        .section .skill {
+            color: darkgreen;
+        }
+
+        .contact-info,
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li,
+        .skills li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Deng Jie（鄧 杰）</h1>
+            <p>Azure／AWS開発エンジニア</p>
+        </div>
+
+        <div class="section">
+            <h2>自己評価</h2>
+            <p>10年以上のソフトウェア開発経験があり、フロントエンド、バックエンド、Azure／AWSの開発技術が得意。</p>
+            <p>技術に対する情熱があり、システム アーキテクチャの設計、品質向上、旧システムのクラウドへ移行などの課題が好きです。</p>
+            <p>優れたチーム協力能力とコミュニケーション能力を持ち、新しい作業環境に迅速に適応し、プレッシャーを引き受けることができます。</p>
+        </div>
+        <div class="section">
+            <h2>スキル</h2>
+            <ul class="skills">
+                <li>プログラミング言語: C#, Java, JavaScript, Python </li>
+                <li>フロントエンド技術: HTML, CSS, Vue, Angular, Jquery</li>
+                <li>バックエンド技術: Spring Boot, Doma, Node.js, ASP.Net, EF Core, WPF, WinForm, TCP/IP Service</li>
+                <li>データベース: MSSQL, Oracle, MySQL, CosmosDB</li>
+                <li>ツール: Git, Docker, Azure Devops </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>職務経験</h2>
+            <h3>コンサルタント | Avanade株式会社</h3>
+            <p>2024年1月 - 現在</p>
+            <ul>
+                <li class="project"><strong>トレーニング（2024年1月 - 2024年2月）</strong></li>
+                <ul>
+                    <li>生成AI系システムの開発を勉強しました（Azure AI Search + Azure OpenAI のDemoを作成できました）</li>
+                    <li>Azure系の資格を５つ取得しました</li>
+                </ul>
+            </ul>
+            <ul>
+                <li class="project"><strong>JICA - ID管理システム（2024年3月 - 現在）</strong></li>
+                <ul>
+                    <li class="skill">スキル：Azure Function（C#）、Azure Logic Apps、MySQL</li>
+                    <li>炎上案件に対して緊急増員として参加し、短時間内でAzure FunctionとLogic Appsを作成しました</li>
+                    <li>リリース後の不具合対応や機能改善を行いました</li>
+                    <li>旧システムのデータ移行作業と移行ツールの開発を担当しました</li>
+                    <li>チームにアジャイル開発プロセス（GitFlowやCI/CD）を導入しました</li>
+                </ul>
+            </ul>
+
+            <h3>ジュニア スペシャリスト | 株式会社ディーバ</h3>
+            <p>2022年4月 - 2023年12月</p>
+            <ul>
+                <li class="project"><strong>自社製品Dx3-Advanceの開発（2022年4月 - 2023年12月）</strong></li>
+                <ul>
+                    <li class="skill">スキル：Spring Boot、ExtJS、AWS（EC2,ECS,S3,SQS,RDS,CosmosDB）</li>
+                    <li>社内SEとして、製品Dx3-AdvanceをAWSへ移行（認証、ストレージ、アーキテクチャなどの変更）</li>
+                    <li>オンプレ版製品の不具合調査、hotfix対応しました</li>
+                    <li>開発リーダとして、チーム開発プロセスの改善、若手エンジニアのフローを担当しました</li>
+                </ul>
+            </ul>
+
+            <h3>ソフトウェア開発エンジニア | 個人事業主</h3>
+            <p>2018年7月 - 2022年3月</p>
+            <ul>
+                <li class="project"><strong>JR東日本 車内改札システム（2018年7月 - 2022年3月）</strong></li>
+                <ul>
+                    <li class="skill">スキル：ASP.Net Web API、MSMQ／RabbitMQ、WPF、MSSQL</li>
+                    <li>座席確保サーバの全体アーキテクチャ設計</li>
+                    <li>車掌用携帯端末とのWebAPI設計</li>
+                    <li>JR東日本マルスシステム（C言語）とのTCP通信サービスの設計と実装</li>
+                    <li>開発必要な自動化ツールの作成</li>
+                </ul>
+            </ul>
+
+            <h3>ソフトウェア開発エンジニア | 株式会社C&J</h3>
+            <p>2017年5月 - 2018年6月</p>
+            <ul>
+                <li class="project"><strong>日本戸籍管理システム（2017年5月 - 2018年6月）</strong></li>
+                <ul>
+                    <li class="skill">スキル：Java、日立Cando、HiRDB、Cosminexus</li>
+                    <li>日本戸籍管理システムV3版（VB）からV4版（Java）に移行開発作業を担当しました</li>
+                    <li>DBデータ移行ツールの開発と移行作業を担当しました</li>
+                </ul>
+            </ul>
+
+            <h3>ゲーム開発者 | 株式会社日進サイエンティア</h3>
+            <p>2015年2月 - 2017年4月</p>
+            <ul>
+                <li class="project"><strong>自社オンラインゲーム開発（2015年2月 - 2017年4月）</strong></li>
+                <ul>
+                    <li class="skill">スキル：C# Server、WebSocket、Phaser.js、ASP.Net MVC、Jquery、MSSQL</li>
+                    <li>FlashオンラインゲームからHtml5ゲームへの移行開発を担当しました</li>
+                    <li>ゲームサーバの開発を担当しました（C# WebSocket）</li>
+                    <li>ゲーム管理システムのリファクタリング（JQuery/Ajaxを使用して、フロントエンドとバックエンドを分離する）</li>
+                    <li>ゲーム運営に関するトラブルシューティング、不具合解決、技術サポート</li>
+                </ul>
+            </ul>
+
+            <h3>ソフトウェア開発エンジニア | 欧識特信息科技（中国上海）有限公司</h3>
+            <p>2014年2月 - 2014年12月</p>
+            <ul>
+                <li class="project"><strong>野村證券システム（2014年2月 - 2014年12月）</strong></li>
+                <ul>
+                    <li class="skill">スキル：Java、JSF、Oracle、Jboss</li>
+                    <li>日本側の要望を受け、仕様変更仕様書を作成、レビューされ、開発とテストを行いました</li>
+                </ul>
+            </ul>
+
+            <h3>プログラマー | 東莞晶苑毛织制衣有限公司(中国広東省)</h3>
+            <p>2012年7月 - 2013年12月</p>
+            <ul>
+                <li class="project"><strong>自社工場内部用システム（2012年7月 - 2013年12月）</strong></li>
+                <ul>
+                    <li class="skill">スキル：ASP.Net、MSSQL、Telerik UI、VB.Net、Sharepoint</li>
+                    <li>社内向けOAシステムの開発とテストを担当する</li>
+                    <li>工場内部の生産レポート開発を担当する</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>資格</h2>
+            <ul>
+                <li>日本語能力試験 JLPT N1 合格（2017年7月）</li>
+                <li>MCSD: App Builder（2018年10月）</li>
+                <li>TOEIC Listening & Reading 860（2021年2月）</li>
+                <li>AWS Certified Solutions Architect - Associate（2022年4月）</li>
+                <li>AWS Certified Solutions Architect - Professional（2022年10月）</li>
+                <li>簿記２級（2023年1月）</li>
+                <li>Microsoft Certified: Azure Fundamentals（2024年1月）</li>
+                <li>Microsoft Certified: Azure AI Fundamentals（2024年2月）</li>
+                <li>Microsoft Certified: Azure Developer Associate（2024年2月）</li>
+                <li>Microsoft Certified: Azure AI Engineer Associate（2024年2月）</li>
+                <li>Microsoft Certified: DevOps Engineer Expert（2024年3月）</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
